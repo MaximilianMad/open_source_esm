@@ -1,4 +1,4 @@
-# ---- Main Program for the Password Strength Analyser ----
+""" ---- Main Program for the Password Strength Analyser ---- """
 from utils import generate_feedback
 
 password = input("Enter a password to analyze: ")
