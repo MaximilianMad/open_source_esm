@@ -1,4 +1,5 @@
-# ---- Functions for the Password Strength Analyser ----
+""" ---- Functions for the Password Strength Analyser ----"""
+
 def check_length(password):
     """Check if the password length is sufficient."""
     return len(password) >= 8
