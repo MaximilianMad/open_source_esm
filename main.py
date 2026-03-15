@@ -1,5 +1,5 @@
 # ---- Main Program for the Password Strength Analyser ----
-import utils
+from utils import generate_feedback
 
 password = input("Enter a password to analyze: ")
 
