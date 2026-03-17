@@ -1,6 +1,10 @@
 # open_source_esm
 ##Github repository for the lecture VU Open Source Energy System Modeling SS26.
 
+Copyright (c) 2026 Maximilian Mad
+
+This project is released under an MIT LICENSE.
+
 The file main.py contains a short program, that analyses a password entered by the user and rates it according to several conditions. These conditions include: 
 
 - length > 8 characters
