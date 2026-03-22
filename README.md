@@ -4,6 +4,7 @@
 Copyright (c) 2026 Maximilian Mad
 
 This project is released under an MIT LICENSE.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 The file main.py contains a short program, that analyses a password entered by the user and rates it according to several conditions. These conditions include: 
 
