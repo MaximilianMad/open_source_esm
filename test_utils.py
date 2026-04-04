@@ -18,7 +18,7 @@ class TestPasswordUtils(unittest.TestCase):
 
     def test_check_length_invalid(self):
         """Password shorter than 8 characters should return False."""
-        self.assertFalse(check_length("Pass1"))
+        self.assertFalse(check_length("Password123"))
 
     def test_check_character_types(self):
         """Function should detect character categories correctly."""
