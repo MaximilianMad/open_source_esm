@@ -17,10 +17,10 @@ def check_character_types(password):
 
 def calculate_strength(password):
     """Calculate password strength score."""
-        score = 0
+    score=0
 
     if check_length(password):
-        score += 1
+            score += 1
 
     char_types = check_character_types(password)
     score += sum(char_types)  # add 1 point per type present
