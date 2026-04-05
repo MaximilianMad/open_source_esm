@@ -17,7 +17,7 @@ def check_character_types(password):
 
 def calculate_strength(password):
     """Calculate password strength score."""
-    score = 0
+        score = 0
 
     if check_length(password):
         score += 1
@@ -46,8 +46,8 @@ def generate_feedback(password):
     if not has_symbol:
         suggestions.append("Add symbols (e.g., !@#$).")
 
-    if score <= 2:
-        strength = "Weak"
+    if score<=2:
+            strength = "Weak"
     elif score <= 4:
         strength = "Medium"
     else:
